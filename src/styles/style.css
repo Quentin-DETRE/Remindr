@@ -1,0 +1,269 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#IntroContainer {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+#IntroContainer h1{
+    font-size: 4em;
+    margin-bottom: 2vh;
+}
+#IntroContainer h3 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight:400;
+}
+
+.navbar {
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+
+}
+
+.navbar h1 {
+    font-size: 5em;
+}
+
+.sign {
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+    border: 0;
+    font-size: 1em;
+}
+.option {
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+    border: 0;
+    font-size: 2em;
+}
+
+.option:hover {
+    cursor: pointer;
+    scale: calc(1.01);
+    transition: all 0.3s ease;
+}
+
+#deleteGroupe {
+    background-color: rgb(144, 0, 0);
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+    border: 0;
+    margin-top: 10vh;
+    margin-left: 9vw;
+    font-size: 1.75em;
+}
+#suppr {
+    background-color: rgb(144, 0, 0);
+}
+#deleteGroupe:hover {
+    cursor: pointer;
+    scale: calc(1.01);
+    transition: all 0.3s ease;
+}
+
+.sign:hover {
+    cursor: pointer;
+}
+
+
+#pdpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    width: 96px;
+    border-radius: 250em;
+    overflow: hidden;
+
+}
+
+#pdp {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 250em;
+    border: 50px;
+    border-color: black;
+}
+
+#sign {
+    width: fit-content;
+}
+
+#Welcome {
+    position: relative;
+
+    left: 10%;
+    top: 5vh;
+    font-size: 2em;
+    width: fit-content;
+}
+
+#Welcome h2 {
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 2vh;
+}
+
+#groupeContainer {
+    display: grid;
+    grid-template-columns: 41vw 41vw;
+    justify-content: center;
+    position: relative;
+    top: 7vh;
+}
+
+.groupe {
+    width: 40vw;
+    height: 10vh;
+    font-size: 2em;
+    border-radius: 1em;
+    margin-top: 1vh;
+    background-color: white;
+}
+
+.groupe:hover {
+    background-color: #f5f5f5;
+    scale: calc(1.01);
+    transition: all 0.3s ease;
+}
+
+.description {
+    margin-left: 10vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80vw;
+    font-size: 1.5em;
+    height: fit-content;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.noteContainer {
+    display: grid;
+    grid-template-columns: 41vw 41vw;
+    justify-content: center;
+    position: relative;
+    top: 7vh;
+}
+
+.note {
+    width: 40vw;
+    height: 10vh;
+    font-size: 2em;
+    border-radius: 1em;
+    margin-top: 1vh;
+    background-color: white;
+}
+
+.note:hover {
+
+    scale: calc(1.01);
+    transition: all 0.3s ease;
+}
+
+#groupForm {
+    width:60vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.NameInput {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.DescInput {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.DateInput{
+    width: 40%;
+    padding: 10px;
+    margin-right: 10%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-bottom: 3%;
+}
+.ColorInput {
+    width: 40%;
+    height: 4vh;
+    margin-left: 10%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.formContainer {
+    width:50vw;
+    margin:23vw;
+    margin-top: 5vh;
+    padding: 1vw;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.userItem {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    width: 18vw;
+    margin-left: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.users-grid {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+}
+.userItem img {
+    width:10vw;
+    border-radius: 25em;
+}
+
+.userItem button {
+    margin-top: 2vh;
+}
+.userItem h2 {
+    margin-top: 2vh;
+}
+.userItem h3 {
+    margin-top: 2vh;
+}
+
+.optionContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
